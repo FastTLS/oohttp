@@ -1,4 +1,4 @@
-module github.com/ooni/oohttp
+module github.com/FastTLS/oohttp
 
 go 1.21
 

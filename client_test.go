@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/ooni/oohttp"
-	cookiejar "github.com/ooni/oohttp/cookiejar"
-	httptest "github.com/ooni/oohttp/httptest"
-	testenv "github.com/ooni/oohttp/internal/testenv"
+	. "github.com/FastTLS/oohttp"
+	cookiejar "github.com/FastTLS/oohttp/cookiejar"
+	httptest "github.com/FastTLS/oohttp/httptest"
+	testenv "github.com/FastTLS/oohttp/internal/testenv"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

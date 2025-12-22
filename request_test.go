@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/ooni/oohttp"
-	httptest "github.com/ooni/oohttp/httptest"
+	. "github.com/FastTLS/oohttp"
+	httptest "github.com/FastTLS/oohttp/httptest"
 )
 
 func TestQuery(t *testing.T) {

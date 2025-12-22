@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/ooni/oohttp"
-	httptest "github.com/ooni/oohttp/httptest"
-	testenv "github.com/ooni/oohttp/internal/testenv"
+	http "github.com/FastTLS/oohttp"
+	httptest "github.com/FastTLS/oohttp/httptest"
+	testenv "github.com/FastTLS/oohttp/internal/testenv"
 )
 
 // This test is a CGI host (testing host.go) that runs its own binary

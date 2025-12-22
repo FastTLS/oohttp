@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	http "github.com/ooni/oohttp"
+	http "github.com/FastTLS/oohttp"
 )
 
 func cgiMain() {

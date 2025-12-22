@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	httptrace "github.com/ooni/oohttp/httptrace"
-	internal "github.com/ooni/oohttp/internal"
-	ascii "github.com/ooni/oohttp/internal/ascii"
-	"github.com/ooni/oohttp/internal/godebug"
+	httptrace "github.com/FastTLS/oohttp/httptrace"
+	internal "github.com/FastTLS/oohttp/internal"
+	ascii "github.com/FastTLS/oohttp/internal/ascii"
+	"github.com/FastTLS/oohttp/internal/godebug"
 	"golang.org/x/net/http/httpguts"
 )
 

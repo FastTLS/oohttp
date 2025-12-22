@@ -40,8 +40,8 @@ import (
 	"unsafe"
 	_ "unsafe" // go:linkname
 
-	"github.com/ooni/oohttp/internal/bisect"
-	"github.com/ooni/oohttp/internal/godebugs"
+	"github.com/FastTLS/oohttp/internal/bisect"
+	"github.com/FastTLS/oohttp/internal/godebugs"
 )
 
 // A Setting is a single setting in the $GODEBUG environment variable.
@@ -186,7 +186,7 @@ func godebugNotify(envChanged bool) {
 	if p := godebugEnv.Load(); p != nil {
 		env = *p
 	}
-	// NOTE: code specific to github.com/ooni/oohttp
+	// NOTE: code specific to github.com/FastTLS/oohttp
 	// we omit this check since the only invocation we have is with envChanged = false
 	// this is done to avoid forking a large portion of the runtime and internal packages
 	// if envChanged {
